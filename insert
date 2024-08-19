@@ -1,0 +1,7 @@
+INSERT INTO filmes(
+id, titulo, diretor, 
+anoLancamento, genero,
+classificacao, disponibilidade
+)
+VALUES(DEFAULT,'Maverick','
+Joseph Kosinski','2022','Acão','12','1');
