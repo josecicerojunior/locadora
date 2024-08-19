@@ -1,0 +1,10 @@
+CREATE TABLE filmes (
+    `id` INT not null AUTO_INCREMENT,
+    `titulo` VARCHAR(200),
+    `diretor` VARCHAR(200),
+    `anoLancamento` INT,
+    `genero` VARCHAR(50),
+    `classificacao` VARCHAR(10),
+    `disponibilidade` BOOLEAN,
+PRIMARY KEY(id)
+) DEFAULT CHARSET = UTF8;
